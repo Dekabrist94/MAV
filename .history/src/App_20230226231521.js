@@ -12,7 +12,7 @@ function App() {
           </div>
         </div>
         <section className="headerRight">
-          <button />
+          <btn />
         </section>
       </header>
       <div className="aboutMe">

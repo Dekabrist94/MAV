@@ -1,18 +1,19 @@
-import Logo from './assets/img/logo.png';
+// import Logo from './assets/img/logo.png';
 
 function App() {
   return (
     <div className="wrapper">
       <header>
         <div className="headerLeft">
-          <img width={320} height={50} src={Logo} alt="logo" />
+          {/* <Logo /> */}
+          <img src="/assets/img/logo.png" />
           <div className="headerInfo">
             <svg />
             <p>mav_photographer_alex</p>
           </div>
         </div>
         <section className="headerRight">
-          <button />
+          <btn />
         </section>
       </header>
       <div className="aboutMe">
