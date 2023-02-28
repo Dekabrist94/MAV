@@ -1,4 +1,3 @@
-import Camera from './assets/img/camera.png';
 import AVATAR from './assets/img/AVATAR.jpg';
 import MAV from './assets/img/MAV.png';
 import PHOTOGRAPHER from './assets/img/photographer.png';
@@ -24,9 +23,9 @@ function App() {
         </div>
       </header>
       <div className="aboutMe">
-        <img className="avatar" width={200} height={200} src={AVATAR} alt="AVATAR" />
-        <img className="camera" width={500} height={300} src={Camera} alt="Camera" />
-
+        <div>
+          <img className="avatar" width={200} height={200} src={AVATAR} alt="AVATAR" />
+        </div>
         <div>
           <h1 className="textAboutCenter">Обо Мне:</h1>
           <h4 className="textAbout">
@@ -38,6 +37,7 @@ function App() {
             jobs. Kind regards!!!
             aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
             aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
           </h4>
         </div>
       </div>

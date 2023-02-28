@@ -1,4 +1,3 @@
-import Camera from './assets/img/camera.png';
 import AVATAR from './assets/img/AVATAR.jpg';
 import MAV from './assets/img/MAV.png';
 import PHOTOGRAPHER from './assets/img/photographer.png';
@@ -24,11 +23,11 @@ function App() {
         </div>
       </header>
       <div className="aboutMe">
-        <img className="avatar" width={200} height={200} src={AVATAR} alt="AVATAR" />
-        <img className="camera" width={500} height={300} src={Camera} alt="Camera" />
-
         <div>
-          <h1 className="textAboutCenter">Обо Мне:</h1>
+          <img className="avatar" width={200} height={200} src={AVATAR} alt="AVATAR" />
+        </div>
+        <h1 className="textAboutCenter">Обо Мне:</h1>
+        <div>
           <h4 className="textAbout">
             Welcome to MAV photographer Alex website! I am Professional photographer, videographer,
             also i do video and photo by Drone. All my <a href="#">Photo Tools</a> you can find on
@@ -36,8 +35,6 @@ function App() {
             want to see my <a href="#">Portfolio</a>, you can do it in two things: On{' '}
             <a href="#">Instagram</a> or scroll a bit down to site and you will find all my best
             jobs. Kind regards!!!
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
           </h4>
         </div>
       </div>

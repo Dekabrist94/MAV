@@ -43,24 +43,16 @@ p {
 }
 
 .aboutMe {
-  position: relative;
   display: flex;
   padding-top: 10%;
   align-items: center;
   justify-content: space-between;
 }
-.proba {
-  position: relative;
-}
-.camera {
-  top: 45px;
-  left: -191px;
-  position: absolute;
-}
+
 .avatar {
   border-radius: 50%;
-  border: 4.5px goldenrod solid;
-  z-index: 1;
+  border: 3px goldenrod solid;
+  z-index: 2;
 }
 
 .textAboutCenter {

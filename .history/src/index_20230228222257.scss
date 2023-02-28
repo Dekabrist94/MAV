@@ -43,7 +43,7 @@ p {
 }
 
 .aboutMe {
-  position: relative;
+  border: 1px black solid;
   display: flex;
   padding-top: 10%;
   align-items: center;
@@ -53,13 +53,12 @@ p {
   position: relative;
 }
 .camera {
-  top: 45px;
-  left: -191px;
+  left: -10px;
   position: absolute;
 }
 .avatar {
   border-radius: 50%;
-  border: 4.5px goldenrod solid;
+  border: 3px goldenrod solid;
   z-index: 1;
 }
 

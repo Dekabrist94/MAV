@@ -1,0 +1,67 @@
+.button {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50%;
+
+  width: 60px;
+  height: 60px;
+  transition: all 0.5s ease;
+}
+.buttonLink:before {
+  background: rgb(119, 111, 111);
+}
+.buttonBtn:before {
+  background: rgba(255, 165, 45, 0.5);
+}
+.button span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  transition: color 0.5s ease;
+}
+.button:hover span {
+  color: #fff;
+}
+.button svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.button:hover:before {
+  width: 100%;
+  border-radius: 50px;
+}
+.buttonLink:hover:before {
+  background: black;
+}
+.buttonBtn:hover:before {
+  background: rgb(255, 165, 45);
+}
+.button:hover svg {
+  transform: translateX(0);
+  stroke: #fff;
+}
+.button:active {
+  transform: scale(0.96);
+}
