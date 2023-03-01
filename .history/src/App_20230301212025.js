@@ -61,19 +61,19 @@ function App() {
         <aside>My Photo Tools</aside>
         <div className="cardContainer">
           <div className="card1 cardBorder">
-            <img className="centerImgCardInside" width={120} height={120} src={Drone} alt="card" />
+            <img width={120} height={120} src={Drone} alt="card" />
           </div>
           <div className="card2 cardBorder">
-            <img className="centerImgCardInside" width={180} height={120} src={Mark} alt="card" />
+            <img width={130} height={220} src={Mark} alt="card" />
           </div>
           <div className="card3 cardBorder">
-            <img className="centerImgCardInside" width={100} height={120} src={CanonD} alt="card" />
+            <img width={120} height={220} src={CanonD} alt="card" />
           </div>
           <div className="card4 cardBorder">
-            <img className="centerImgCardInside" width={120} height={120} src={Lumix} alt="card" />
+            <img width={120} height={220} src={Lumix} alt="card" />
           </div>
           <div className="card5 cardBorder">
-            <img className="centerImgCardInside" width={120} height={120} src={Hero5} alt="card" />
+            <img width={120} height={220} src={Hero5} alt="card" />
           </div>
         </div>
       </section>

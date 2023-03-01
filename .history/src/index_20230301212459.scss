@@ -122,7 +122,9 @@ p {
 }
 
 .centerImgCardInside {
-  padding: 5px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .cardContainer {

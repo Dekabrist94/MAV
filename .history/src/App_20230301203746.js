@@ -1,9 +1,5 @@
 import Camera from './assets/img/camera.png';
-import Drone from './assets/img/mavicAir.png';
-import Mark from './assets/img/5dmark.png';
-import CanonD from './assets/img/1000d.png';
-import Lumix from './assets/img/lumix.png';
-import Hero5 from './assets/img/hero5.png';
+
 import AVATAR from './assets/img/AVATAR.jpg';
 import MAV from './assets/img/MAV.png';
 import PHOTOGRAPHER from './assets/img/photographer.png';
@@ -57,26 +53,7 @@ function App() {
         </div>
       </section>
 
-      <section className="PhotoTools">
-        <aside>My Photo Tools</aside>
-        <div className="cardContainer">
-          <div className="card1 cardBorder">
-            <img className="centerImgCardInside" width={120} height={120} src={Drone} alt="card" />
-          </div>
-          <div className="card2 cardBorder">
-            <img className="centerImgCardInside" width={180} height={120} src={Mark} alt="card" />
-          </div>
-          <div className="card3 cardBorder">
-            <img className="centerImgCardInside" width={100} height={120} src={CanonD} alt="card" />
-          </div>
-          <div className="card4 cardBorder">
-            <img className="centerImgCardInside" width={120} height={120} src={Lumix} alt="card" />
-          </div>
-          <div className="card5 cardBorder">
-            <img className="centerImgCardInside" width={120} height={120} src={Hero5} alt="card" />
-          </div>
-        </div>
-      </section>
+      <section className="PhotoTools">PHOTO TOOLS</section>
     </div>
   );
 }
