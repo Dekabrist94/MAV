@@ -6,7 +6,7 @@
 }
 
 .aboutLinks:hover {
-  color: rgb(111, 17, 235);
+  color: rgb(53, 235, 17);
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 header {
-  padding: 40px;
+  padding-top: 10px;
   margin: 50px;
   display: flex;
   justify-content: space-between;
@@ -43,18 +43,6 @@ img {
   align-items: center;
 }
 
-.underLogoLink {
-  color: rgb(0, 0, 0);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-.underLogoLink:hover {
-  color: rgb(111, 17, 235);
-  transition: all 0.3s ease;
-}
 .instaLink {
   display: flex;
   margin-top: -3px;

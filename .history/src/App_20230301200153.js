@@ -32,7 +32,7 @@ function App() {
         <img className="camera" width={500} height={302} src={Camera} alt="Camera" />
 
         <div>
-          <h1 className="textAboutCenter">About Me:</h1>
+          <h1 className="textAboutCenter">Обо Мне:</h1>
           <h4 className="textAbout">
             Welcome to MAV photographer Alex website! I am Professional photographer, videographer,
             also i do video and photo by Drone. All my{' '}

@@ -16,9 +16,7 @@ function App() {
             <img width={150} height={30} src={PHOTOGRAPHER} alt="logo" />
             <div className="instaLink">
               <img width={15} height={15} src={InstaLogo} alt="Instagram" />
-              <a href="#" className="underLogoLink">
-                mav_photographer_alex
-              </a>
+              <a>mav_photographer_alex</a>
             </div>
           </div>
         </div>
@@ -32,7 +30,7 @@ function App() {
         <img className="camera" width={500} height={302} src={Camera} alt="Camera" />
 
         <div>
-          <h1 className="textAboutCenter">About Me:</h1>
+          <h1 className="textAboutCenter">Обо Мне:</h1>
           <h4 className="textAbout">
             Welcome to MAV photographer Alex website! I am Professional photographer, videographer,
             also i do video and photo by Drone. All my{' '}

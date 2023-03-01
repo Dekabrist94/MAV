@@ -1,12 +1,5 @@
-.aboutLinks {
-  color: rgb(68, 132, 141);
-  text-decoration: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  transition: all 0.3s ease;
-}
-
-.aboutLinks:hover {
-  color: rgb(111, 17, 235);
+a {
+  color: rgb(11, 148, 182);
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -28,7 +21,7 @@ body {
 }
 
 header {
-  padding: 40px;
+  padding-top: 10px;
   margin: 50px;
   display: flex;
   justify-content: space-between;
@@ -43,18 +36,6 @@ img {
   align-items: center;
 }
 
-.underLogoLink {
-  color: rgb(0, 0, 0);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-.underLogoLink:hover {
-  color: rgb(111, 17, 235);
-  transition: all 0.3s ease;
-}
 .instaLink {
   display: flex;
   margin-top: -3px;
@@ -88,14 +69,6 @@ p {
   border-radius: 50%;
   border: 5px black solid;
   z-index: 1;
-  transition: all 0.4s ease;
-
-  cursor: pointer;
-}
-.avatar:hover {
-  transition: all 0.4s ease;
-  transform: scale(1.05);
-  cursor: pointer;
 }
 
 .textAboutCenter {
