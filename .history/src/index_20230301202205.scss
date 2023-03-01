@@ -6,7 +6,7 @@
 }
 
 .aboutLinks:hover {
-  color: rgb(235, 17, 82);
+  color: rgb(111, 17, 235);
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -48,13 +48,13 @@ img {
   opacity: 70%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
   text-transform: uppercase;
   font-size: 12px;
 }
 .underLogoLink:hover {
   opacity: 100%;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 .instaLink {
   display: flex;
