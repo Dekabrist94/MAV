@@ -13,7 +13,7 @@ function App() {
         <h1 className="captionPortfolio">My Portfolio</h1>
         <div className="slider">
           <div className="mainCamera">
-            <img className="cameraSlider" width={800} height={1100} src={mainCamera} />
+            <img className="cameraSlider" width={1060} height={1200} src={mainCamera} />
           </div>
         </div>
       </section>
