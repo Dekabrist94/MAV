@@ -83,21 +83,8 @@ p {
   position: absolute;
   left: 610px;
   opacity: 0.5;
+  z-index: 0;
 }
-
-.textAboutCenter {
-  text-align: center;
-  font-style: italic;
-}
-.textAbout {
-  padding-bottom: 50px;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: left;
-  font-style: italic;
-  opacity: 0.9;
-}
-
 .camera {
   top: -50px;
   left: -190px;
@@ -117,6 +104,17 @@ p {
   cursor: pointer;
 }
 
+.textAboutCenter {
+  text-align: center;
+  font-style: italic;
+}
+.textAbout {
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+  font-style: italic;
+}
 .cardContainer {
   display: flex;
   padding: 15px;

@@ -83,11 +83,14 @@ p {
   position: absolute;
   left: 610px;
   opacity: 0.5;
+  z-index: 1;
 }
 
 .textAboutCenter {
   text-align: center;
   font-style: italic;
+  opacity: 0.9;
+  z-index: 2;
 }
 .textAbout {
   padding-bottom: 50px;
@@ -95,7 +98,6 @@ p {
   padding-right: 5%;
   text-align: left;
   font-style: italic;
-  opacity: 0.9;
 }
 
 .camera {

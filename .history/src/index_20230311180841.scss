@@ -75,29 +75,16 @@ p {
   margin-left: 150px;
   position: relative;
   display: flex;
-  z-index: 3;
+
   align-items: center;
   justify-content: space-between;
 }
 .bride {
   position: absolute;
   left: 610px;
-  opacity: 0.5;
+  // opacity: 0.5;
+  z-index: 0;
 }
-
-.textAboutCenter {
-  text-align: center;
-  font-style: italic;
-}
-.textAbout {
-  padding-bottom: 50px;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: left;
-  font-style: italic;
-  opacity: 0.9;
-}
-
 .camera {
   top: -50px;
   left: -190px;
@@ -117,6 +104,18 @@ p {
   cursor: pointer;
 }
 
+.textAboutCenter {
+  text-align: center;
+  font-style: italic;
+  z-index: 0;
+}
+.textAbout {
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+  font-style: italic;
+}
 .cardContainer {
   display: flex;
   padding: 15px;
