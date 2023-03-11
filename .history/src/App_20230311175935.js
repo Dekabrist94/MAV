@@ -21,7 +21,7 @@ function App() {
       <section className="contContainer">
         <div className="background">
           <div className="qr">
-            <h1 className="contCaption">Contacts</h1>
+            <h1 className="CaptionTools">Contacts</h1>
             <ul className="contacts">
               <li>
                 <a href="https://www.instagram.com/palazzagofotografo/" target="_blank">

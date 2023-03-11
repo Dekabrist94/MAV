@@ -7,7 +7,7 @@ export const AboutMe = () => {
     <section className="aboutMe">
       <img className="avatar" width={200} height={200} src={AVATAR} alt="AVATAR" />
       <img className="camera" width={500} height={302} src={Camera} alt="Camera" />
-      <img className="bride" width={320} height={350} src={Bride} alt="Bride" />
+      <img className="bride" width={400} height={302} src={Bride} alt="Bride" />
 
       <div>
         <h1 className="textAboutCenter">About Me:</h1>

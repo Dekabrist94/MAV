@@ -19,11 +19,11 @@ function App() {
       </section>
 
       <section className="contContainer">
-        <div className="background">
-          <div className="qr">
-            <h1 className="contCaption">Contacts</h1>
-            <ul className="contacts">
-              <li>
+        <div>
+          <h1 className="contCaption">Contacts</h1>
+          <ul className="contacts">
+            <li>
+              <h4>
                 <a href="https://www.instagram.com/palazzagofotografo/" target="_blank">
                   <img
                     className="qrcode"
@@ -33,9 +33,10 @@ function App() {
                     title="Instagram QR Code"
                   />
                 </a>
-                <h4 align="center">Instagram</h4>
-              </li>
-              <li>
+              </h4>
+            </li>
+            <li>
+              <h4>
                 <a href="https://wa.me/+393519741841" target="_blank">
                   <img
                     className="qrcode"
@@ -44,10 +45,12 @@ function App() {
                     height="123"
                     title="WhatsApp QR Code"
                   />
+                  <h4>Instagram</h4>
                 </a>
-                <h4 align="center">WhatsApp</h4>
-              </li>
-              <li>
+              </h4>
+            </li>
+            <li>
+              <h4>
                 <a href="https://t.me/mavphotographeralex" target="_blank">
                   <img
                     className="qrcode"
@@ -57,10 +60,9 @@ function App() {
                     title="Telegram QR Code"
                   />
                 </a>
-                <h4 align="center">Telegram</h4>
-              </li>
-            </ul>
-          </div>
+              </h4>
+            </li>
+          </ul>
         </div>
       </section>
     </div>
