@@ -1,0 +1,266 @@
+@font-face {
+  font-family: Kalam;
+  src: url(../src/components/fonts/Kalam-Bold.ttf);
+}
+
+.aboutLinks {
+  color: rgb(68, 132, 141);
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: all 0.3s ease;
+}
+
+.aboutLinks:hover {
+  color: rgb(235, 17, 82);
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(12, 213, 240, 0.1);
+}
+
+.wrapper {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  max-width: 1080px;
+  margin: 50px auto;
+}
+
+@media (max-width: 770px) {
+  .wrapper {
+    max-width: 768px;
+    margin: 0px auto;
+  }
+  .img {
+    width: 200px;
+  }
+}
+
+header {
+  padding: 40px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  margin-right: 5px;
+  user-select: none;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.underLogoLink {
+  color: black;
+  opacity: 70%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-size: 12px;
+  user-select: none;
+}
+.underLogoLink:hover {
+  opacity: 100%;
+}
+.instaLink {
+  display: flex;
+  margin-top: -3px;
+  align-items: center;
+}
+
+.bookMe {
+  margin-top: 20px;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+.aboutMe {
+  margin-left: 200px;
+  position: relative;
+  display: flex;
+  z-index: 3;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bride {
+  top: 30px;
+  position: relative;
+  left: 300px;
+  opacity: 0.5;
+  user-select: none;
+}
+
+.textAboutCenter {
+  left: -150px;
+  position: relative;
+  text-align: left;
+  font-style: italic;
+}
+.textAbout {
+  position: relative;
+  left: -150px;
+  z-index: 5;
+  text-align: left;
+  font-style: italic;
+  font-family: 'Kalam';
+  opacity: 0.9;
+  display: inline;
+  font-size: 15px;
+}
+
+.camera {
+  left: -190px;
+  position: absolute;
+}
+.avatar {
+  top: 30px;
+  position: relative;
+  border-radius: 50%;
+  border: 5px black solid;
+  z-index: 1;
+  transition: all 0.4s ease-in-out;
+}
+.avatar:hover {
+  transform: scale(1.03);
+}
+
+.cardContainer {
+  display: flex;
+  padding: 15px;
+}
+.card {
+  height: 220px;
+  width: 140px;
+  margin: 0 auto;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.cardBorder {
+  border-radius: 25px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.cardStyle {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.CaptionTools {
+  font-family: 'Kalam';
+  margin-left: 50px;
+  font-size: 55px;
+  padding-left: 12px;
+  border-left: 5px rgb(0, 0, 0) solid;
+}
+
+.captionPortfolio {
+  font-family: 'Kalam';
+  margin-left: 50px;
+  font-size: 55px;
+  padding-left: 12px;
+  border-left: 5px rgb(0, 0, 0) solid;
+}
+
+.mainCamera {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+}
+
+.cameraSlider {
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.contContainer {
+  position: relative;
+  margin: 0px 15px auto;
+}
+
+.background {
+  position: absolute;
+  background: rgba(112, 111, 111, 0.9);
+  width: 100%;
+  height: 270px;
+  margin: -290px auto;
+  z-index: 3;
+  border-radius: 25px;
+}
+
+.qr {
+  padding: 15px;
+}
+
+.contCaption {
+  font-family: 'Kalam';
+  margin-left: 30px;
+  border-left: 5px rgb(0, 0, 0) solid;
+  padding-left: 12px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  z-index: 5;
+}
+
+.qrcode {
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.qrcode:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  /* 1 - вертикальный скроллбар */
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 5px; /* 1 - горизонтальный скроллбар */
+}
+
+::-webkit-scrollbar-button {
+  background: #787978; /* 2 - кнопка */
+}
+
+::-webkit-scrollbar-track {
+  background: #787978; /* 3 - трек */
+}
+
+::-webkit-scrollbar-track-piece {
+  background: #787978; /* 4 – видимая часть трека */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f8c9c;
+  border-radius: 25px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); /* 5 - ползунок */
+}

@@ -1,0 +1,58 @@
+@media (max-width: 1440px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 768px;
+  }
+  .aboutMe {
+    padding-left: 400px;
+  }
+  .bride {
+    left: 700px;
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 425px;
+  }
+
+  .headerImgLogo,
+  .underLogoLink {
+    display: none;
+  }
+  .camera {
+    left: 0px;
+    width: 200px;
+    height: 130px;
+  }
+
+  .avatar {
+    top: 32px;
+    left: 76px;
+    width: 75px;
+    height: 80px;
+  }
+  .aboutMe {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .wrapper {
+    max-width: 375px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    max-width: 320px;
+    margin: 50px auto;
+  }
+}
