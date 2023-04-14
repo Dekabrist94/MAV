@@ -1,0 +1,36 @@
+.cardContainer {
+  display: flex;
+  padding: 15px;
+}
+.card {
+  height: 220px;
+  width: 140px;
+  margin: 0 auto;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.cardBorder {
+  border-radius: 25px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.cardStyle {
+  padding-top: 15px;
+  text-align: center;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+.CaptionTools {
+  font-family: 'Kalam';
+  margin-left: 50px;
+  font-size: 55px;
+  padding-left: 12px;
+  border-left: 5px rgb(0, 0, 0) solid;
+}

@@ -1,0 +1,64 @@
+.aboutLinks {
+  color: rgb(68, 132, 141);
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: all 0.3s ease;
+}
+
+.aboutLinks:hover {
+  color: rgb(235, 17, 82);
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutMe {
+  position: relative;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding-left: 500px;
+  padding-bottom: 2rem;
+}
+
+.bride {
+  opacity: 0.5;
+  position: absolute;
+
+  top: 30px;
+
+  left: 700px;
+
+  user-select: none;
+}
+
+.textAboutCenter {
+  font-size: 30px;
+  text-align: left;
+  font-style: italic;
+}
+.textAbout {
+  z-index: 5;
+  text-align: left;
+  font-style: italic;
+  font-family: 'Kalam';
+  opacity: 0.9;
+  display: inline;
+}
+
+.camera {
+  top: 0px;
+  left: -50px;
+  position: absolute;
+}
+.avatar {
+  left: 140px;
+  top: 75px;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px black solid;
+  z-index: 9;
+  transition: all 0.4s ease-in-out;
+}
+.avatar:hover {
+  transform: scale(1.03);
+}

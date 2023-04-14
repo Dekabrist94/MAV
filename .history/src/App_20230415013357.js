@@ -7,10 +7,10 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <AboutMe />
+      {/* <AboutMe />
       <PhotoTools />
       <Portfolio />
-      <Contacts />
+      <Contacts /> */}
     </div>
   );
 }
