@@ -1,0 +1,51 @@
+header {
+  padding: 40px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  margin-right: 5px;
+  user-select: none;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+.underLogoLink {
+  color: black;
+  opacity: 70%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-size: 12px;
+  user-select: none;
+}
+.underLogoLink:hover {
+  opacity: 100%;
+}
+.instaLink {
+  display: flex;
+  margin-top: -3px;
+  align-items: center;
+}
+
+.bookMe {
+  margin-top: 20px;
+}
+
+/*MEDIA******************************************************************************************************************************** */
+
+@media only screen and (max-width: 380px) {
+  header {
+    margin: 10px;
+  }
+  .headerImg {
+    width: 5rem;
+    height: 5vh;
+  }
+}
